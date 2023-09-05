@@ -1,0 +1,65 @@
+body{
+    background-color: #87f0b6;
+background-attachment: fixed;
+background-size: cover;
+}
+.c{
+    margin: 0 auto;
+    position: relative;
+}
+.c1{
+    position:absolute;
+    top: 20%;
+    height: 50%;
+    transform: translate(140%, -25%);
+    text-align: center; /*centrar el texto del div(contenedor)*/
+    font-size: 25px; /*tamaño del texto del div(contenedor)*/
+    font-family: system-ui;
+    background: linear-gradient(90deg, #0c0b0c, #0e0c0c);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.c2{
+    width: 350px;
+    height: 350px;
+    place-self: 25pxs;
+    position: absolute;
+    top: 270%;
+    height: 700%;
+    transform: translate(130%, -25%);
+    background: rgba(5, 7, 12, 0.15); /*transparentar el div(contenedor) */
+}
+.c3{
+    position:absolute;
+    top: 850%;
+    height: 50%;
+    transform: translate(140%, -25%);
+    text-align: center; /*centrar el texto del div(contenedor)*/
+    font-size: 25px; /*tamaño del texto del div(contenedor)*/
+    background: linear-gradient(90deg, #060707, #070707);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.c4{
+    width: 350px;
+    height: 350px;
+    place-self: 25pxs;
+    position: absolute;
+    top: 1050%;
+    height: 580%;
+    transform: translate(130%, -25%);
+    background: rgba(5, 7, 12, 0.15); /*transparentar el div(contenedor) */
+
+}
+.c5{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    place-self: 25pxs;
+    top: 1600%;
+    height: 10%;
+    transform: translate(130%, -25%);
+    position: absolute;
+    background: rgba(5, 7, 12, 0.15); /*transparentar el div(contenedor) */
+
+}
